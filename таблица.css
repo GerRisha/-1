@@ -1,0 +1,123 @@
+body {
+	background-image: url(image/fon.png);
+	background-position:center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+		margin:0;
+		font-family: "Montserrat", sans-serif;
+		font-size:15px;
+		line-height:1.6;
+		color:#333;
+	}
+	*,
+	*:before,
+	*:after {
+		box-sizing:border-box;
+	}
+	h1,h2,h3,h4,h5,h6 {
+		margin:0;
+	}
+	.container {
+		width:100%;
+		max-width:1200px;
+		margin:0 auto;
+	}
+	
+	
+	.intro-title {
+		color:#fff;
+		font-size:30 px;
+		font-weight:700;
+		text-transform: uppercase;
+		line-height:1;
+		text-align:center;
+		margin-top:50px;
+	}
+	.intro_inner {
+		width:100%;
+		max-width:900;
+		margin:0 auto;
+	}
+	
+	.header {
+		width:100%;
+		padding-top:30px;
+		position:fixed;
+		z-index: 3;
+		background:#002137;
+	}
+	.header_inner {
+		display:flex;
+		justify-content:space-between;
+		align-items: center; 
+	}
+	.header_logo {
+		font-size:30px;
+		font-weight:700;
+		color:#fff;
+	}
+	.nav {
+	font-size: 14px;
+	text-transform: uppercase;
+	}
+	.nav_link {
+		color:#fff;
+		text-decoration:none;
+		display: inline-block;
+		vertical-align:top;
+		transition:color .2s linear;
+		margin:0 15px;
+	}
+	.nav_link::after {
+		content: '';
+		display:block;
+		width:100%;
+		height:3px; 
+		background-color:#fff;
+		position:absolute;
+		top:100%;
+		left:0;
+		z-index:1;
+	}
+	.nav_link:hover {
+	color:red;
+	}
+	
+	
+	  #content {
+		width: 500px; 
+		margin: 0 auto 50px; 
+	   }
+	   #footer {
+		position: fixed;
+		left: 0; bottom: 0; 
+		padding: 15px;
+		background:  #002137; 
+		color: #fff; 
+		width: 100%; 
+	   }
+	
+	   table {
+		font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+		text-align: center;
+		border-collapse: collapse;
+		border-spacing: 50px;
+		background: #182a55;
+		border-radius: 20px;
+		}
+		th {
+		font-size: 30px;
+		font-weight: 300;
+		padding: 12px 10px;
+		border-bottom: 2px solid #f20000;
+		color: #f61818;
+		}
+		tbody tr:nth-child(2) {
+		border-bottom: 2px solid #ff0000;
+		}
+		td {
+		padding: 10px;
+		color: #ffffff;
+		}
+  
